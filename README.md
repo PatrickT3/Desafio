@@ -1,0 +1,1 @@
+Creation of a Web application(height: 760px; width: 1280px;) with Mobile responsiveness (height: 760px;width: 480px;)
