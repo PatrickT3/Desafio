@@ -1,0 +1,85 @@
+/* configuração geral */ 
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+    background: rgba(255, 255, 255, 1);
+    height: 760px;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    display: flex;
+    border: solid;
+}
+.le-img, .ld-texto{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+
+/* imagem lado esquerdo */
+.img-one{
+    height: 480.0145568847656px;
+    width: 552.5130004882812px;
+    margin-left: 87.49349975585938px;
+    margin-top: 146px;   
+}
+
+/* lado direito */
+.ld-texto{
+    display: flex;
+    flex-direction: column;
+}
+.ld-texto h1{
+    height: 101px;
+    width: 473px;
+    margin-left: 719px;
+    margin-top: 200px;
+    font-size: 39px;
+    line-height: 46px;
+    text-align: center;
+}
+.ld-texto p{
+    height: 169px;
+    width: 443px;
+    margin-left: 734px;
+    margin-top: 14px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+/* botoes div */
+.botoes{
+    display: flex;
+    width: 427px;
+    margin-left: 734px;
+    margin-top: 64px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 26px;
+}
+.botoes #btn-1{
+    margin-right: 20px;
+}
+/* configuracao do botao*/
+#btn-1,#btn-2{
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+    text-decoration: none;
+    background-color:#3EB25E;
+    color:rgba(255, 255, 255, 1);
+    width: 199px;
+    height: 35px;
+    border-radius: 35px;
+    padding-top: 5px;
+    font-weight: bold;
+    transition: .5s;
+}
+#btn-1:hover,#btn-2:hover{
+    background-color: rgba(255, 255, 125, 1);
+    color: rgba(0, 0, 0, 1);
+    ;
+}
