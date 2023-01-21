@@ -1,3 +1,168 @@
-h1{
-    background-color: brown;
+/* configuração geral */ 
+body{
+    font-family: 'Roboto Condensed', sans-serif;
 }
+.container{
+    background: rgba(255, 255, 255, 1);
+    height: 760px;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    display: flex;
+    border: solid;
+}
+.le,.ld{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+/* le img */
+.le img{
+    height: 528.0145874023438px;
+    width: 552.5130004882812px;
+    margin-left: 87.49349975585938px;
+    margin-top: 98px;
+}
+
+/* lado direito */
+.ld{
+    display: flex;
+    flex-direction: column;
+}
+#h2-select{
+    margin-right: 40px;
+    text-align: center;
+    margin-top: 142px;
+}
+#h2-checkbox{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 45px;
+}
+
+
+/* lado direito select */
+.slt{
+    box-sizing: border-box;
+    position: absolute;
+    width: 459px;
+    height: 52px;
+    margin-left: 90px;
+    margin-top: 190px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+/* checkbox */
+/* The container */
+.check{
+    margin-left: 70px;
+}
+.container-box {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+    margin-left: 20px;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container-box input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 35px;
+    background-color: rgba(62, 178, 94, 0.3);
+    ;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container-box input:checked ~ .checkmark {
+    background-color: rgba(62, 178, 94, 1);
+    ;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+
+  /* botoes */
+  /* botoes div */
+.botoes-cima{
+  display: flex;
+  width: 427px;
+  margin-left: 90px;
+  margin-top: 32px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 26px;
+}
+.botoes-cima #btns-1{
+  margin-right: 20px;
+}
+/* configuracao do botao*/
+#btns-1,#btns-2{
+  text-align: center;
+  font-size: 22px;
+  line-height: 25px;
+  text-decoration: none;
+  background-color:#3EB25E;
+  color:rgba(255, 255, 255, 1);
+  width: 199px;
+  height: 35px;
+  border-radius: 35px;
+  padding-top: 5px;
+  font-weight: bold;
+  transition: .5s;
+}
+#btns-1:hover,#btns-2:hover{
+  background-color: rgba(255, 255, 125, 1);
+  color: rgba(0, 0, 0, 1);
+  ;
+}
+
+/* botao baixo */
+
+#btns-3{
+  text-align: center;
+  font-size: 22px;
+  line-height: 25px;
+  text-decoration: none;
+  background-color:#3EB25E;
+  color:rgba(255, 255, 255, 1);
+  width: 418px;
+  height: 35px;
+  border-radius: 35px;
+  padding-top: 5px;
+  margin-top: 16px;
+  margin-left: 90px;
+  font-weight: bold;
+  transition: .5s;
+}
+#btns-3:hover{
+  background-color: rgba(255, 255, 125, 1);
+  color: rgba(0, 0, 0, 1);
+  ;
+}
+
+  
