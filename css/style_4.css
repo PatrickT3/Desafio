@@ -31,14 +31,13 @@ body{
     flex-direction: column;
 }
 #h2-select{
+    margin-left: 90px;
     margin-right: 40px;
-    text-align: center;
     margin-top: 142px;
 }
 #h2-checkbox{
-    text-align: center;
     margin-top: 100px;
-    margin-left: 45px;
+    margin-left: 90px;
 }
 #seta{
     z-index: 1;
@@ -61,9 +60,8 @@ body{
     height: 52px;
     font-size: 25px;
     line-height: 32px;
-    text-align: center;
     margin-left: 90px;
-    padding-left: 20px;
+    padding-left: 45px;
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     cursor: pointer;
