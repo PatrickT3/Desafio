@@ -10,7 +10,7 @@ function marcaDesmarca(caller) {
     }
   }
 
-  //muda a cor da seta do select
+//muda a cor da seta do select
 var check = document.querySelector('.seletor');
 check.addEventListener('click',function(){
     var checkSeta = document.querySelector('#seta');
@@ -19,12 +19,13 @@ check.addEventListener('click',function(){
   });
 
 
-// valida se é ou nao possivel avanca
+// valida se é ou nao possivel avanca tela pag 4
 var next = document.querySelector('#btns-2[href="#"]');
 next.addEventListener("click",function(){
-  if (val2 === val1 === true){
+  if (val2 === true & val1 === true){
     next['href'] = "pag_4.html";
-    console.log(next)
+    val1 = false;
+    val2 = false;
   }
 })
 

@@ -133,7 +133,7 @@ body{
   margin-right: 20px;
 }
 /* configuracao do botao*/
-#btns-1,#btns-2{
+#btns-1,#btns-02{
   text-align: center;
   font-size: 22px;
   line-height: 25px;
@@ -147,7 +147,7 @@ body{
   font-weight: bold;
   transition: .5s;
 }
-#btns-1:hover,#btns-2:hover{
+#btns-1:hover,#btns-02:hover{
   background-color: rgba(255, 255, 125, 1);
   color: rgba(0, 0, 0, 1);
   ;
