@@ -37,4 +37,4 @@ bt.addEventListener('mouseover',function(){
 
 bt.addEventListener('mouseout',function(){
   bt.textContent = "Skip";
-})
+});

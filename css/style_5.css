@@ -1,0 +1,108 @@
+/* configuração geral */ 
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+    background: rgba(255, 255, 255, 1);
+    height: 760px;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    display: flex;
+}
+.le,.ld{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.le{
+    background-image: url(/img/four.svg);
+    height: 521.0145874023438px;
+    width: 552.5130004882812px;
+    margin-left: 87.49349975585938px;
+    margin-top: 105px;
+}
+/* config lado direito */
+
+.ld h2{
+    height: 100px;
+    width: 466px;
+    margin-left: 90px;
+    margin-top: 175px;
+}
+.ld textarea{
+    margin-left: 90px;
+    height: 225px;
+    width: 459px;
+    border-radius: 20px;
+    resize: none;
+}
+
+
+
+/* botoes */
+  /* botoes div */
+  .botoes-cima{
+    display: flex;
+    width: 427px;
+    margin-left: 90px;
+    margin-top: 32px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 26px;
+  }
+  .botoes-cima #btns-1{
+    margin-right: 20px;
+  }
+  /* configuracao do botao*/
+  #btns-1,#btns-02{
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+    text-decoration: none;
+    background-color:#3EB25E;
+    color:rgba(255, 255, 255, 1);
+    width: 199px;
+    height: 35px;
+    border-radius: 35px;
+    padding-top: 5px;
+    font-weight: bold;
+    transition: .5s;
+  }
+  #btns-1:hover,#btns-02:hover{
+    background-color: rgba(255, 255, 125, 1);
+    color: rgba(0, 0, 0, 1);
+  }
+  
+  /* botao baixo */
+  
+  #btns-3{
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+    text-decoration: none;
+    background-color:#3EB25E;
+    color:rgba(255, 255, 255, 1);
+    width: 418px;
+    height: 35px;
+    border-radius: 35px;
+    padding-top: 5px;
+    margin-top: 16px;
+    margin-left: 90px;
+    font-weight: bold;
+    transition: .5s;
+    border: none;
+    cursor:pointer;
+  }
+  #btns-3:hover{
+    background-color: rgba(255, 255, 125, 1);
+    color: rgba(0, 0, 0, 1);
+  }
+  button#btns-3:hover span{
+    display: none;
+  }
+  button#btns-3:hover:before{
+    content: "Skiep";
+  }
