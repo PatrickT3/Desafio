@@ -17,8 +17,7 @@ body{
     width: 50%;
 }
 /* lado esquerdo */
-.le{
-    background-image: url(/img/five.svg);
+.le img{
     height: 521.0145874023438px;
     width: 552.5130004882812px;
     margin-left: 87.49349975585938px;
@@ -103,4 +102,54 @@ form label{
 #btn:hover{
     background-color: rgba(255, 255, 125, 1);
     color: rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 1200px){
+    .container{
+        flex-direction: column;
+        width: 480px;
+        height: 760px;
+    }
+    .le,.ld{
+        position: relative;
+        height: 50%;
+        width: 100%;
+    }
+    .le img{
+        height: 352.95px;
+        width: 374.34px;
+        margin-left: 65px;
+        margin-top: 47px;
+    }
+    form{
+        margin-top: 30px;
+        margin-left: 90px;
+        font-size: 18px;
+    }
+    .inC,.inCage{
+        font-size: 18px;
+    }
+    .inC{
+        height: 33px;
+        width: 278px;
+        margin-left: 0px;
+        margin-top: 0px;
+        border-radius: 20px;
+    }
+    .inCage{
+        height: 36px;
+        width: 111px;
+    }
+    form label{
+        line-height: 30px;
+    }
+    #btn, .btns{
+        font-size: 16px;
+        height: 26px;
+        width: 300px;
+    }
+    .btns{
+        height: 30px;
+        padding-top:0px;
+    }
 }
