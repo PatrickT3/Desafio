@@ -15,41 +15,43 @@
         </div>
 
         <div class="ld">
-            <h2 id="h2-select">How do you decide to invest?</h2>
-            <div class="slt">
-                <div id="seta"></div>
-                <select class="seletor">
-                        <option value="0">I have not invested yet.</option>
-                        <option value="1">A random text 1</option>
-                        <option value="2">A random text 2</option>
-                        <option value="3">A random text 3</option>
-                        <option value="4">A random text 4</option>
-                        <option value="5">A random text 5</option>
-                </select>
-            </div>
-            <h2 id="h2-checkbox">What resources have you used or are you using for your training?</h2>
-            <div class="check">
-                <label class="container-box">Books and articles
-                    <input type="checkbox" >
-                    <span class="checkmark"></span>
-                  </label>
-                  <label class="container-box">YouTube tutorial videos
-                    <input type="checkbox" >
-                    <span class="checkmark"></span>
-                  </label>
-                  <label class="container-box">online or face to face courses 
-                    <input type="checkbox" >
-                    <span class="checkmark"></span>
-                  </label>
-                  <label class="container-box">experience with little investment
-                    <input type="checkbox" >
-                    <span class="checkmark"></span>
-                  </label>     
-            </div>
-            <div class="botoes-cima">
-                <a href="/pag_3.html" id="btns-1">Back</a>
-                <a href="/pag_5.html" id="btns-02">Next</a>
-            </div>
+            <form action="/pag_5.html">
+                <h2 id="h2-select">How do you decide to invest?</h2>
+                <div class="slt">
+                    <div id="seta"></div>
+                    <select class="seletor" required>
+                            <option value="">I have not invested yet.</option>
+                            <option value="1">A random text 1</option>
+                            <option value="2">A random text 2</option>
+                            <option value="3">A random text 3</option>
+                            <option value="4">A random text 4</option>
+                            <option value="5">A random text 5</option>
+                    </select>
+                </div>
+                <h2 id="h2-checkbox">What resources have you used or are you using for your training?</h2>
+                <div class="check">
+                    <label class="container-box">Books and articles
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container-box">YouTube tutorial videos
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container-box">online or face to face courses 
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container-box">experience with little investment
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                    </label>     
+                </div>
+                <div class="botoes-cima">
+                    <a href="/pag_3.html" id="btns-1">Back</a>
+                    <input  id="btns-02" type="submit" value="Next">
+                </div>
+            </form>
             <a href="/pag_5.html"><button id="btns-3"><span>Skip</span></button></a>
         </div>
     </div>
